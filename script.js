@@ -84,7 +84,11 @@ class MinHeap {
   }
 }
 
-// Example usage:
-const ropes = [4, 2, 7, 6, 9];
+// Example usage
+const n = promp();
+const N = parseInt(n);
+for(let i=0;i<N;i++){
+	ropes[i]= prompt();
+}
 const minCost = minCostToConnectRopes(ropes);
-console.log("Minimum cost to connect the ropes:", minCost);
+console.log(minCost);
