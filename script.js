@@ -86,7 +86,7 @@ class MinHeap {
 
 // Example usage
 const n = promp();
-const N = parseInt(n);
+const N = Number.parseInt(n);
 for(let i=0;i<N;i++){
 	ropes[i]= prompt();
 }
